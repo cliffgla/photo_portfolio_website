@@ -1,0 +1,13 @@
+.container {
+    background-image: url("img/homepage_bg.jpg");
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .5;
+
+
+}
+
+.container, h1 {
+    opacity: 100%;
+}
