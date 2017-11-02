@@ -8,7 +8,7 @@ $("#DTLA-button").on("click", function() {
 
 $("#food-button").on("click", function() {
     if ($("img").hasClass("DTLA")) {
-        $(".food").css("display", "none");
+        $(".food").fadeOut(800);
 
     }
 });
