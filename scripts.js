@@ -2,13 +2,15 @@ $("#DTLA-button").on("click", function() {
     if ($("img").hasClass("DTLA")) {
         $(".food").css("display", "none");
         $(".portrait").css("display", "none");
+        $(".DTLA").css("display", "inline");
 
     }
 });
 
 $("#food-button").on("click", function() {
     if ($("img").hasClass("DTLA")) {
-        $(".food").fadeOut(800);
+        $(".DTLA").fadeOut(800);
+        $(".food").css("display", "inline")
 
     }
 });
