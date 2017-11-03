@@ -27,9 +27,13 @@ $("#show-all-button").on("click", function() {
     //then those photos stay displayed
         //all others hide
 
-$("a").on("click", function(){
-    if ($("img").className === $(this).className) {
-
-    };
+$("a").on("click", function() {
+    var cliffy = document.getElementById(this);
+    var cliffy2 = cliffy.className;
+    if ($("img").hasClass(cliffy2)) {
+        $("img").css("display", "inline");
+    } else {
+        $("img").css("display", "none");
+    }
 
 });
