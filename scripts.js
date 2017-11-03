@@ -30,7 +30,7 @@ $("#show-all-button").on("click", function() {
 $("a").on("click", function() {
     var cliffy = this.id;
     var cliffy2 = document.getElementById(cliffy).className;
-    if ($("img").hasClass(cliffy2)) {
-        alert("hello");
+    if ($("img").hasClass(cliffy2) === true) {
+            $("img").css("display", "none");
     }
 });
