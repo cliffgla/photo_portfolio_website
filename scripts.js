@@ -30,5 +30,6 @@ $("#show-all-button").on("click", function() {
 $("a").on("click", function() {
     var cliffy = this.id;
     var cliffy2 = document.getElementById(cliffy).className;
-    
+    $("img").hide();
+    $("img." + cliffy2).show();
 });
