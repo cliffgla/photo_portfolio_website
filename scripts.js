@@ -27,9 +27,9 @@ $("#show-all-button").on("click", function() {
     //then those photos stay displayed
         //all others hide
 
+
 $("a").on("click", function() {
-    var cliffy = this.id;
-    var cliffy2 = document.getElementById(cliffy).className;
+    var cliffy = this.className;
     $("img").hide();
-    $("img." + cliffy2).show();
+    $("img." + cliffy).show();
 });
