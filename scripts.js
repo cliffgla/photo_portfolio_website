@@ -9,5 +9,29 @@ $("a").on("click", function() {
 });
 
 $("#menu p").on("click", function() {
-    $("#menu-toggle").toggle(); 
+    $("#menu-toggle").toggle();
+});
+
+var $overlay = $('<div id="overlay"></div>');
+var $image = $('<img>');
+var $caption = $('<p></p>');
+
+$overlay.append($image);
+
+$overlay.append($caption);
+
+$("body").append($overlay);
+
+$(".photo-wrapper img").on("click",function() {
+	event.preventDefault();
+	var imageLocation = $(this).attr("src");
+	$image.attr("src", imageLocation);
+	$overlay.fadeIn();
+	var captionText = $(this).children("img").attr("alt");
+	$caption.text(captionText);
+});
+
+$overlay.on("click",function(){
+	$(this).fadeOut();
+
 });
