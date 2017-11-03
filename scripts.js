@@ -1,4 +1,4 @@
-$("#DTLA-button").on("click", function() {
+/* $("#DTLA-button").on("click", function() {
     if ($("img").hasClass("DTLA")) {
         $(".food").css("display", "none");
         $(".portrait").css("display", "none");
@@ -19,5 +19,17 @@ $("#show-all-button").on("click", function() {
 
         $("img").css("display","inline" );
 
+
+});
+*/
+
+//if button name is the same as a photo id
+    //then those photos stay displayed
+        //all others hide
+
+$("a").on("click", function(){
+    if ($("img").className === $(this).className) {
+
+    };
 
 });
