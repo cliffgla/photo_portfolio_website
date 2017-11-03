@@ -16,6 +16,9 @@ nav a {
     text-align: center;
 }
 
+#menu-toggle {
+    display: none;
+}
 
 
 
@@ -46,7 +49,11 @@ nav a {
         text-align: center;
     }
     nav p {
-        text-align: center; 
+        text-align: center;
+    }
+
+    #menu-toggle {
+        display: inline; 
     }
 
 }

@@ -7,3 +7,7 @@ $("a").on("click", function() {
         $("img." + imageFilter).show();
      }
 });
+
+$("#menu p").on("click", function() {
+    $("#menu-toggle").toggle(); 
+});
