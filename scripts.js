@@ -29,7 +29,12 @@ $("#show-all-button").on("click", function() {
 
 
 $("a").on("click", function() {
-    var cliffy = this.className;
-    $("img").hide();
-    $("img." + cliffy).show();
+    if (this.className === "show-all") {
+         $("img").show();
+     } else {
+         var imageFilter = this.className;
+        $("img").hide();
+        $("img." + imageFilter).show();
+     }
+
 });
