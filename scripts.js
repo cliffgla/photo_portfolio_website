@@ -28,12 +28,7 @@ $("#show-all-button").on("click", function() {
         //all others hide
 
 $("a").on("click", function() {
-    var cliffy = document.getElementById(this);
-    var cliffy2 = cliffy.className;
-    if ($("img").hasClass(cliffy2)) {
-        $("img").css("display", "inline");
-    } else {
-        $("img").css("display", "none");
-    }
-
+    var cliffy = this.id;
+    var cliffy2 = document.getElementById(cliffy).className;
+    alert(cliffy2);
 });
