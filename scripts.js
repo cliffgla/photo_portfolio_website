@@ -30,8 +30,5 @@ $("#show-all-button").on("click", function() {
 $("a").on("click", function() {
     var cliffy = this.id;
     var cliffy2 = document.getElementById(cliffy).className;
-    var cliffy3 = document.getElementsByClassName(cliffy2);
-    $(cliffy3).css("display", "none");
-
-
+    
 });
