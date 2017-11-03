@@ -16,6 +16,10 @@ nav a {
     text-align: center;
 }
 
+#menu p {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
 #menu-toggle {
     display: none;
 }
@@ -52,8 +56,11 @@ nav a {
         text-align: center;
     }
 
+    #menu p {
+        display: none; 
+    }
     #menu-toggle {
-        display: inline; 
+        display: inline;
     }
 
 }
