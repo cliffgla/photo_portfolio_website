@@ -11,7 +11,7 @@ nav {
 nav a {
     margin-right: 1em;
     margin-bottom: 1em;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 
@@ -29,4 +29,14 @@ nav a {
     width: 300px;
     align-self: center;
     margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+@media (min-width:768px) {
+
+
+
+
 }
