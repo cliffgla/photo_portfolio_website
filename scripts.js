@@ -14,24 +14,24 @@ $("#menu p").on("click", function() {
 
 var $overlay = $('<div id="overlay"></div>');
 var $image = $('<img>');
-var $caption = $('<p></p>');
+
 
 $overlay.append($image);
 
-$overlay.append($caption);
+
 
 $("body").append($overlay);
 
-$(".photo-wrapper img").on("click",function() {
-	event.preventDefault();
+$("img").on("click",function() {
 	var imageLocation = $(this).attr("src");
 	$image.attr("src", imageLocation);
 	$overlay.fadeIn();
-	var captionText = $(this).children("img").attr("alt");
-	$caption.text(captionText);
+    $("#main-wrapper").css("opacity", ".5");
 });
 
 $overlay.on("click",function(){
 	$(this).fadeOut();
+    $("#main-wrapper").css("opacity", "1");
+
 
 });
