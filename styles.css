@@ -1,4 +1,3 @@
-
 header {
     text-align: center;
 }
@@ -61,14 +60,17 @@ nav a {
 }
 
 #overlay {
-	background: ;
 	width: 100%;
 	height: 100%;
-	position: absolute ;
+	position: absolute;
 	top: 0;
 	left: 0;
 	display: none;
-	text-align: center; 
+	text-align: center;
+}
+
+#overlay img {
+    width: 100%;
 }
 
 @media (min-width:768px) {
