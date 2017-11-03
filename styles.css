@@ -12,9 +12,13 @@ nav a {
     margin-right: 1em;
     margin-bottom: 1em;
     text-decoration: none;
+    display: block;
 }
 
-
+#menu-toggle {
+    display: flex;
+    justify-content: center;
+}
 
 
 .photo-wrapper {
@@ -36,7 +40,12 @@ nav a {
 
 @media (min-width:768px) {
 
-
+    nav a {
+        margin-right: 1em;
+        margin-bottom: 1em;
+        text-decoration: none;
+        display: inline;
+    }
 
 
 }
