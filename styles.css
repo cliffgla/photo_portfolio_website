@@ -13,12 +13,10 @@ nav a {
     margin-bottom: 1em;
     text-decoration: none;
     display: block;
+    text-align: center;
 }
 
-#menu-toggle {
-    display: flex;
-    justify-content: center;
-}
+
 
 
 .photo-wrapper {
@@ -45,7 +43,10 @@ nav a {
         margin-bottom: 1em;
         text-decoration: none;
         display: inline;
+        text-align: center;
     }
-
+    nav p {
+        text-align: center; 
+    }
 
 }
