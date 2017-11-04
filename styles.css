@@ -19,14 +19,14 @@ p, a {
 }
 
 /*navigation*/
-nav {
+.photo-filter {
     display: flex;
     justify-content: center;
     margin-bottom: 1em;
 
 }
 
-nav a {
+.photo-filter a {
     margin-right: 1em;
     margin-bottom: 1em;
     text-decoration: none;
@@ -83,10 +83,10 @@ main {
 
 @media (min-width:768px) {
 
-    nav {
+    .photo-filter {
 
     }
-    nav a {
+    .photo-filter a {
         margin-right: 1em;
         margin-bottom: 1em;
         text-decoration: none;
