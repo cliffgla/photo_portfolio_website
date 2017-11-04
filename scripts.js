@@ -1,5 +1,5 @@
 // Filter Function
-$(".menu-toggle a").on("click", function() {
+$("#menu-toggle a").on("click", function() {
     if (this.className === "show-all") {
          $("img").show();
      } else {
