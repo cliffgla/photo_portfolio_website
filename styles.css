@@ -25,6 +25,9 @@ nav {
 
 }
 
+
+
+
 nav a {
     margin-right: 1em;
     margin-bottom: 1em;
@@ -36,6 +39,7 @@ nav a {
 #menu p {
     cursor: pointer;
     font-style: italic;
+
 }
 
 #menu-toggle {
@@ -59,7 +63,7 @@ main {
     width: 300px;
     align-self: center;
     margin-right: 5px;
-    margin-left: 5px; 
+    margin-left: 5px;
     margin-bottom: 5px;
 }
 
@@ -71,7 +75,6 @@ main {
 	left: 0;
 	display: none;
 	text-align: center;
-    margin-top: 25%
 
 }
 
@@ -81,6 +84,9 @@ main {
 
 @media (min-width:768px) {
 
+    nav {
+
+    }
     nav a {
         margin-right: 1em;
         margin-bottom: 1em;
@@ -94,9 +100,11 @@ main {
 
     #menu p {
         display: none;
+
     }
     #menu-toggle {
         display: inline;
     }
+
 
 }
