@@ -4,7 +4,7 @@ $("a").on("click", function() {
      } else {
          var imageFilter = this.className;
         $(".photo-wrapper img").hide();
-        $(".photo-wrapper img." + imageFilter).show();
+        $(".photo-wrapper img." + imageFilter).fadeIn(400);
      }
 });
 
