@@ -3,8 +3,8 @@ $("a").on("click", function() {
          $("img").show();
      } else {
          var imageFilter = this.className;
-        $("img").hide();
-        $("img." + imageFilter).show();
+        $(".photo-wrapper img").hide();
+        $(".photo-wrapper img." + imageFilter).show();
      }
 });
 
@@ -22,7 +22,7 @@ $overlay.append($image);
 
 $("body").append($overlay);
 
-$("img").on("click",function() {
+$(".photo-wrapper img").on("click",function() {
 	var imageLocation = $(this).attr("src");
 	$image.attr("src", imageLocation);
 	$overlay.fadeIn();
