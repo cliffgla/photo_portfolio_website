@@ -28,12 +28,9 @@ $("body").append($overlay);
 $(".photo-wrapper img").on("click",function() {
 	var imageLocation = $(this).attr("src");
 	$image.attr("src", imageLocation);
-    if ($(window).width() < 768) {
-
-
-        // $("#main-wrapper").css("display", "none");
+    // effectively nothing happens on smaller screens
+    if ($(window).width() < 400) {
         $(this).css("display", "block");
-        $(this).css("width", "100%");
     } else {
 	$overlay.fadeIn();
     $("#main-wrapper").css("opacity", ".5");
