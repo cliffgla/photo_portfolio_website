@@ -30,7 +30,9 @@ $(".photo-wrapper img").on("click",function() {
 	$image.attr("src", imageLocation);
     if ($(window).width() < 768) {
         $(this).css("width", "100%");
-        $("#main-wrapper").css("display", "none");
+
+        // $("#main-wrapper").css("display", "none");
+        $(this).css("display", "block");
     } else {
 	$overlay.fadeIn();
     $("#main-wrapper").css("opacity", ".5");
@@ -42,5 +44,3 @@ $overlay.on("click",function(){
 	$(this).fadeOut();
     $("#main-wrapper").css("opacity", "1");
 });
-
-// show full sized image on click in mobile

@@ -79,7 +79,8 @@ main {
 }
 
 #overlay img {
-    width: 80%;
+    width: 50%;
+    margin-top: 10%;
 }
 
 @media (min-width:768px) {
