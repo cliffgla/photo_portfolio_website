@@ -19,6 +19,15 @@ p, a {
 }
 
 /*navigation*/
+
+nav {
+    display: flex;
+    justify-content: center; 
+}
+nav a {
+    display: inline-block;
+}
+/*photo-filter*/
 .photo-filter {
     display: flex;
     justify-content: center;
