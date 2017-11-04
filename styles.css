@@ -1,7 +1,7 @@
 header {
     text-align: center;
 }
-
+/*fonts */
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -18,15 +18,13 @@ p, a {
 
 }
 
+/*navigation*/
 nav {
     display: flex;
     justify-content: center;
     margin-bottom: 1em;
 
 }
-
-
-
 
 nav a {
     margin-right: 1em;
@@ -51,7 +49,7 @@ main {
     justify-content: center;
 }
 
-
+/*Photos*/
 .photo-wrapper {
     display: flex;
     flex-wrap: wrap;
