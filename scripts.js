@@ -29,17 +29,18 @@ $(".photo-wrapper img").on("click",function() {
 	var imageLocation = $(this).attr("src");
 	$image.attr("src", imageLocation);
     if ($(window).width() < 768) {
-        $(this).css("width", "100%");
+
 
         // $("#main-wrapper").css("display", "none");
         $(this).css("display", "block");
+        $(this).css("width", "100%");
     } else {
 	$overlay.fadeIn();
     $("#main-wrapper").css("opacity", ".5");
     }
 });
 
-// background fades to half opacity during modal event
+// returns to normal on click of modal
 $overlay.on("click",function(){
 	$(this).fadeOut();
     $("#main-wrapper").css("opacity", "1");
