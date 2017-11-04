@@ -22,10 +22,15 @@ p, a {
 
 nav {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    margin-bottom: .5em; 
 }
 nav a {
     display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+
 }
 /*photo-filter*/
 .photo-filter {
