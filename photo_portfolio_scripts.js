@@ -29,7 +29,7 @@ $(".photo-wrapper img").on("click",function() {
 	var imageLocation = $(this).attr("src");
 	$image.attr("src", imageLocation);
     // effectively nothing happens on smaller screens
-    if ($(window).width() < 400) {
+    if ($(window).width() < 500) {
         $(this).css("display", "block");
     } else {
 	$overlay.fadeIn();
