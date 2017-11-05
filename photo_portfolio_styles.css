@@ -20,13 +20,22 @@ p, a {
 
 /*navigation*/
 
-nav {
-    display: flex;
-    justify-content: center;
-    margin-bottom: .5em; 
+.nav {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*margin-bottom: .5em;*/
+    /*position: fixed;*/
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(128, 128, 128, .5);
+    text-align: center;
+    margin-left:0;
+    left: 0; 
 }
 nav a {
-    display: inline-block;
+    /*display: inline-block;*/
     text-decoration: none;
     color: black;
     font-weight: 400;
