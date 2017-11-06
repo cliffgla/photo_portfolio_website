@@ -118,18 +118,38 @@ main {
 
 /*About Section*/
 
-.bio {
-    width: 45%;
-    display: inline-block;
-}
+
 #about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
     background-image: url("img/cliff_about.jpg");
-    height: 800px;
+    height: 400px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: 80% 80%;
     background-size: cover;
-    display: inline-block;
+    /*display: inline-block;*/
+}
+
+#bio {
+
+    text-align: center;
+    width: 100%;
+}
+
+#bio span {
+    background-color: rgb(245, 245, 245);
+}
+
+#contact {
+    width: 100%;
+    text-align: center;
+}
+
+#contact span {
+    background-color: rgb(245, 245, 245);
 }
 
 
@@ -169,6 +189,17 @@ main {
     }
     #about {
         background-position: right;
+
+    }
+
+    #bio {
+        width: 45%;
+        margin-left: 2em;
+    }
+
+    #contact {
+        width: 45%;
+        text-align: center;
     }
 
 }
