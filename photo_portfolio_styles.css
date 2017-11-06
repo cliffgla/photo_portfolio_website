@@ -122,8 +122,7 @@ main {
 #about {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     background-image: url("img/cliff_about.jpg");
     height: 400px;
     width: 100%;
@@ -195,6 +194,7 @@ main {
     #bio {
         width: 45%;
         margin-left: 2em;
+        flex: start;
     }
 
     #contact {
